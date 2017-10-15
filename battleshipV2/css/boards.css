@@ -1,0 +1,80 @@
+body {
+	background-color: black;
+	overflow-x:hidden;
+}
+
+table {
+	background-color: cyan;
+	border-collapse: collapse;
+	position:relative;
+}
+
+.player {
+	float: left;
+}
+
+.prog {
+	float: right;
+}
+
+td {
+	background-image: url('../pic/water.jpg');
+	height: 34px;
+	width: 50px;
+	border: none;
+}
+
+.table-headers {
+	background-image: none;
+	background-color: wheat;
+	text-align: center;
+}
+
+
+#e15 {
+	background-image: url('../myCarrier/c1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#e25 {
+	background-image: url('../myCarrier/c2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#e35 {
+	background-image: url('../myCarrier/c3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#e45 {
+	background-image: url('../myCarrier/c4.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#e55 {
+	background-image: url('../myCarrier/c5.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+td:hover {
+	background: rgba(76, 175, 80, 0.1);
+}
+
+#e15:hover, #e25:hover, #e35:hover, #e45:hover, #e55:hover {
+	background: rgba(76, 175, 80, 0.1);
+}
+
+#console{
+	font-family: 'Press Start 2P', cursive;
+	float: right;
+	position: absolute;
+	bottom:0;
+	margin-bottom:5%;
+}
+
+
