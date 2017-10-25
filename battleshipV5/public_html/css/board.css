@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+td{
+	height: 40px;
+	width: 50px;
+}
+
+#playerTable {
+	float: left;
+}
+
+#progressTable {
+	float: right;
+}
+
+.xAxis, .yAxis {
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.waterCell {
+	background-image: url('../pic/oasis.png');
+}
+
+.waterCell:hover {
+	background: #F5FFFA;
+}
